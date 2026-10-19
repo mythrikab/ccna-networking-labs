@@ -2,9 +2,7 @@
 # Lab 01: IPv4 Addressing and Basic Connectivity
 
 ## Objective
-Configure IPv4 addresses and subnet masks on PCs
-and verify connectivity across multiple networks
-using a router in Cisco Packet Tracer.
+Configure IPv4 addresses and subnet masks on PCs and verify connectivity between multiple IP networks using a router in Cisco Packet Tracer.
 
 ## Tools Used
 - Cisco Packet Tracer
@@ -22,21 +20,20 @@ using a router in Cisco Packet Tracer.
 | PC3 | 201.191.20.1 | 255.255.255.0 |
 
 ## Tasks Performed
-- Configured IPv4 addresses on end devices.
-- Connected three separate networks through a router.
-- Tested connectivity using ping.
-- Verified communication between devices.
+- Configured IPv4 addresses and subnet masks on PCs.
+- Connected three separate IP networks through a router.
+- Tested connectivity using ICMP ping.
+- Verified communication between devices on different networks.
 
 ## Verification Results
-- PC1 to PC3: [Success]
-- PC1 to PC2: [Success]
+- PC1 to PC3: Success
+- PC1 to PC2: Success
 
 ## Key Learnings
-- IPv4 addresses and subnet masks.
+- IPv4 addressing and subnet masks.
 - Identifying different IP networks.
-- The role of a router in forwarding traffic between networks.
-- Verifying connectivity using ICMP ping.
+- The role of a router in forwarding packets between networks.
+- Verifying network connectivity using ping.
 
 ## Project File
-Download `ipv4-addressing.pkt` to explore the lab in
-Cisco Packet Tracer.
+[Download the Packet Tracer Lab](ipv4-addressing.pkt)
