@@ -1,22 +1,42 @@
 
-# Lab 01: IPv4 Addressing
+# Lab 01: IPv4 Addressing and Basic Connectivity
 
 ## Objective
-Practice IPv4 addressing using Cisco Packet Tracer.
+Configure IPv4 addresses and subnet masks on PCs
+and verify connectivity across multiple networks
+using a router in Cisco Packet Tracer.
 
 ## Tools Used
 - Cisco Packet Tracer
+- Cisco IOS CLI
 
-## Concepts Practiced
-- IPv4 addresses
-- Subnet masks
-- IP configuration
-- Network connectivity
+## Network Topology
+![Network Topology](topology.png)
 
-## Verification
-I tested connectivity using ping.
-Add the actual results and configuration details here.
+## IP Addressing Table
 
-## Files
-- `ipv4-addressing.pkt` — Packet Tracer project
-- `topology.png` — Network topology screenshot
+| Device | IP Address | Subnet Mask |
+|---|---|---|
+| PC1 | 15.0.0.1 | 255.0.0.0 |
+| PC2 | 182.98.0.1 | 255.255.0.0 |
+| PC3 | 201.191.20.1 | 255.255.255.0 |
+
+## Tasks Performed
+- Configured IPv4 addresses on end devices.
+- Connected three separate networks through a router.
+- Tested connectivity using ping.
+- Verified communication between devices.
+
+## Verification Results
+- PC1 to PC3: [Success]
+- PC1 to PC2: [Success]
+
+## Key Learnings
+- IPv4 addresses and subnet masks.
+- Identifying different IP networks.
+- The role of a router in forwarding traffic between networks.
+- Verifying connectivity using ICMP ping.
+
+## Project File
+Download `ipv4-addressing.pkt` to explore the lab in
+Cisco Packet Tracer.
